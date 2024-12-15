@@ -107,4 +107,5 @@
 
 
 // create elements
-
+let el = document.createElement('div');
+el.innerText= "This is Div";
