@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to bottom, orange, white);
+    height: 100vh; /* Full screen height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+html, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 400px;
+    width: 257px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+.white_box{
+    width: 120%;
+    height: 110%;
+    background-color: white;
+    position: absolute;
+    bottom: -100px;
+    transform: rotate(75deg);
+    /* transform-origin:; */
+}
+.orange_box{
+    background: linear-gradient(to bottom, rgb(255, 111, 0), rgb(36, 133, 217));
+   height: 40%;
+   width: 100%;
+}
+
