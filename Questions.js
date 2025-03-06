@@ -94,3 +94,13 @@ for (var i in price) {
   total += price[i].price
 }
 console.log(total)
+
+// using for of
+/*
+let user = { id: 1, name: "Ravi", orders: [{ item: "Pizza", price: 250 }, { item: "Burger", price: 150 }] };
+let total = 0;
+for (let obj of user.orders){
+  total += obj.price
+}
+console.log(total)
+*/
