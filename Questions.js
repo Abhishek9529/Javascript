@@ -86,7 +86,7 @@ console.log(`dishes prices : ${Object.values(restorent.menu)}`)
 */
 
 // calculate the total price of orders
-
+/*
 let user = { id: 1, name: "Ravi", orders: [{ item: "Pizza", price: 250 }, { item: "Burger", price: 150 }] };
 let total = 0
 let price  = user.orders
@@ -94,7 +94,7 @@ for (var i in price) {
   total += price[i].price
 }
 console.log(total)
-
+*/
 // using for of
 /*
 let user = { id: 1, name: "Ravi", orders: [{ item: "Pizza", price: 250 }, { item: "Burger", price: 150 }] };
@@ -102,5 +102,15 @@ let total = 0;
 for (let obj of user.orders){
   total += obj.price
 }
+console.log(total)
+*/
+
+// using foreach
+/*
+let user = { id: 1, name: "Ravi", orders: [{ item: "Pizza", price: 250 }, { item: "Burger", price: 150 }] };
+let total = 0;
+user.orders.forEach(order => {
+  total += order.price
+})
 console.log(total)
 */
