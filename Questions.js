@@ -129,3 +129,9 @@ const obj2 ={...obj1};
 obj2.b.x = 20 // its also changed original object 
 console.log(obj2); **/
 
+
+// use of Object.assign()
+/**  const obj1 = {a:1, b:2};
+const obj2 =Object.assign({}, obj1);// its copy one or more objects 
+console.log(obj2);  **/
+
