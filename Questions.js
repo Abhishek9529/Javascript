@@ -114,3 +114,18 @@ user.orders.forEach(order => {
 })
 console.log(total)
 */
+
+
+// use of spread operator (...) and Object.assign()
+
+// spread operator (...)
+/** const obj1 = {a:1, b:2};
+const obj2 ={...obj1};// spread operator copy the specified object 
+console.log(obj2); **/
+
+
+/** const obj1 = {a:1, b:{x: 10}};
+const obj2 ={...obj1};
+obj2.b.x = 20 // its also changed original object 
+console.log(obj2); **/
+
