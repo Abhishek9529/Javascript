@@ -135,3 +135,15 @@ console.log(obj2); **/
 const obj2 =Object.assign({}, obj1);// its copy one or more objects 
 console.log(obj2);  **/
 
+
+// use of Object.freeze(), Object.seal()
+/** const obj1 ={
+  name : 'rahul',
+  age : 24,
+  class : 2
+} 
+//Object.freeze(obj1)
+//Object.seal(obj1)
+obj1.city= 'pune'
+console.log(obj1) **/
+
