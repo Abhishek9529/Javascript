@@ -147,3 +147,16 @@ console.log(obj2);  **/
 obj1.city= 'pune'
 console.log(obj1) **/
 
+function findAvrage(marks) {
+  let sum = 0
+  marks.forEach((mark)=>{
+    sum += mark
+  })
+  return sum / marks.length
+}
+const student = {
+ name: 'aryan',
+ marks : [27,38,35,58,69,36]
+}
+console.log(findAvrage(student.marks))
+
