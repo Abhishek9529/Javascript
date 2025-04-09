@@ -147,6 +147,7 @@ console.log(obj2);  **/
 obj1.city= 'pune'
 console.log(obj1) **/
 
+/**
 function findAvrage(marks) {
   let sum = 0
   marks.forEach((mark)=>{
@@ -159,4 +160,42 @@ const student = {
  marks : [27,38,35,58,69,36]
 }
 console.log(findAvrage(student.marks))
+**/
+// shoping cart counting items
+shopCart= [
+  {
+    name: 'almond',
+    price: 200,
+    quantity: 2
+  },
+  {
+    name: 'kaju',
+    price: 150,
+    quantity: 4
+  },
+  {
+  name: 'suger',
+  price: 50,
+  quantity: 1
+},
+{
+  name: 'biskit',
+  price: 20,
+  quantity: 2
+}
+]
 
+totalValue(shopCart)
+
+function totalValue(cartItem) {
+  let totalPrice = 0
+  cartItem.forEach((item) => {
+    let price = item.price
+    let quant = item.quantity
+    totalPrice += price * quant
+  })
+  console.log(totalPrice)
+}
+
+
+     
